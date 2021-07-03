@@ -2,18 +2,26 @@
 
 compile and install mozc-emacs-helper to Mac.
 
-## how to use
+## How do I install these formulae?
 
-```
-$ brew tap hirocaster/homebrew-mozc-emacs-helper
-$ brew install mozc-emacs-helper
-```
+`brew install cafenero/mozc-emacs-helper`
 
-## debug
+Or `brew tap cafenero/mozc-emacs-helper` and then `brew install mozc-emacs-helper`.
+
+## Documentation
+
+`brew help`, `man brew` or check [Homebrew's documentation](https://docs.brew.sh).
+
+
+## Debug
 ```
 dev
-/usr/local/Homebrew/Library/Taps/cafenero/homebrew-mozc-emacs-helper/
+/usr/local/Homebrew/Library/Taps/`<github account>`/homebrew-mozc-emacs-helper/
 
 log
-/Users/yusuke/Library/Logs/Homebrew/mozc-emacs-helper
+~/Library/Logs/Homebrew/mozc-emacs-helper
 ```
+
+## Reference
+- https://qiita.com/ignorant/items/b267bc0836010081eceb
+- https://github.com/hirocaster/homebrew-mozc-emacs-helper
