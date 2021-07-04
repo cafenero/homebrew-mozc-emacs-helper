@@ -2,8 +2,13 @@ require "formula"
 
 class MozcEmacsHelper < Formula
   homepage "https://github.com/cafenero/homebrew-mozc-emacs-helper"
-  url "https://gist.github.com/cef707ac0b23b82f399a.git"
+  url "https://github.com/cafenero/homebrew-mozc-emacs-helper/blob/add-bottle/bottle/mozc-emacs-helper--0.0.2.big_sur.bottle.1.tar.gz"
   version "0.0.2"
+
+  bottle do
+    rebuild 1
+    sha256 cellar: :any_skip_relocation, big_sur: "6d8f91b48ad8805bfec9f18e73a1d055fd7fb326d4e637f96a9762bdf53649d1"
+  end
 
   depends_on "ninja"
   # depends_on "python2"
