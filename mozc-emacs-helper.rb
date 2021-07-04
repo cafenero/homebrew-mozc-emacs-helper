@@ -34,7 +34,7 @@ class MozcEmacsHelper < Formula
 
       # debug
       # system 'cp ~/mozc-emacs-helper.patch .'
-      system 'curl -O https://raw.githubusercontent.com/cafenero/homebrew-mozc-emacs-helper/mod_build_for_python2/mozc-emacs-helper.patch'
+      system 'curl -O https://raw.githubusercontent.com/cafenero/homebrew-mozc-emacs-helper/master/mozc-emacs-helper.patch'
       system "patch -p1 < mozc-emacs-helper.patch"
 
       Dir.chdir "src" do
